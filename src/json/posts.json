@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "titulo": "Python: Origem do nome",
+        "texto": ""
+    },
+    {
+        "id": 2,
+        "titulo": "¿ Quien soy yo ?",
+        "texto": ""
+    },
+    {
+        "id": 3,
+        "titulo": "O que é JWT?",
+        "texto": ""
+    },
+    {
+        "id": 4,
+        "titulo": "O que é um Sprite 2D?",
+        "texto": ""
+    },
+    {
+        "id": 5,
+        "titulo": "Variáveis no CSS",
+        "texto": " "
+    },
+    {
+        "id": 6,
+        "titulo": "Principais comunidades de Front-end",
+        "texto": ""
+    },
+    {
+        "id": 7,
+        "titulo": "Formulários reativos com Angular",
+        "texto": ""
+    },
+    {
+        "id": 8,
+        "titulo": "Svelte ou React?",
+        "texto": ""
+    }
+]
