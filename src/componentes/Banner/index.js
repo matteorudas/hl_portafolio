@@ -4,8 +4,8 @@ export default function Banner() {
     return(
         <div className={styles.banner}>
                 <div className={styles.presentacion}>
-                    <h1 className={styles.titulo}>Desarrollador Frontend </h1>
-                    <p className={styles.parrafo}>Hola, soy un desarrollador frontend con experiencia en React y JavaScript. Me apasiona crear aplicaciones web interactivas y atractivas.</p>
+                    <h1 className={styles.titulo}>Desarrollador de Software</h1>
+                    <p className={styles.parrafo}>Bienvenido a mi espacio digital. Aquí comparto un poco de mi historia como desarrollador y artículos sobre tecnología, programación y curiosidades del mundo tech que podrían interesarte.</p>
                 </div>
                 <div className={styles.imagenes}>
                     <img className={styles.circuloColorido} src="/assets/circulo_colorido.png" aria-hidden={true}/>

@@ -4,17 +4,22 @@ import Inicio from "./paginas/Inicio";
 import Sobremi from "./paginas/Sobremi";
 import PiedePagina from "./componentes/PiedePagina";
 import PaginaPatron from "./componentes/PaginaPatron";
+import Post from "./paginas/Post";
+import NoEncontrada from "./paginas/Noencontrada";
+import ScrollToTop from "./componentes/ScrollToTop";
 
 function AppRoutes() {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
       <Menu/>
       <Routes>
         <Route path="/" element={<PaginaPatron/>}>
           <Route index element={<Inicio/>}/>
           <Route path="sobre" element={<Sobremi/>}/>
         </Route>
-        <Route path="*" element={<div>Pagina no encontrada</div>}/>
+        <Route path="posts/:id/*" element={<Post/>}/>
+        <Route path="*" element={<NoEncontrada/>}/>
       </Routes>
       <PiedePagina/>
     </BrowserRouter>

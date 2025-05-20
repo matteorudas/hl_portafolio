@@ -1,0 +1,22 @@
+.botonLeer {
+    display: inline-block;
+    border-radius: 24px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    background-color: #ee780a;
+    color: var(--branco);
+    border: 3px solid #be6817;
+    cursor: pointer;
+    transition: 0.2s
+}
+
+.botonLeer:hover {
+    border: 3px solid var(--azul-escuro);
+}
+
+.botonLeer.lg {
+    padding: 1.5rem 2.75rem;
+    font-size: 1.5rem;
+    line-height: 1.125rem;
+}

@@ -13,6 +13,7 @@
 
 .capa {
     width: 100%;
+    border-radius: 16px;
 }
 
 .titulo {
@@ -23,22 +24,6 @@
     margin: 1.5rem 0 1.75rem;
 }
 
-.botonLeer {
-    display: inline-block;
-    border-radius: 24px;
-    padding: 0.75rem 1.5rem;
-    font-size: 1.125rem;
-    line-height: 1.125rem;
-    background-color: #ee780a;
-    color: var(--branco);
-    border: 3px solid #be6817;
-    cursor: pointer;
-    transition: 0.2s
-}
-
-.botonLeer:hover {
-    border: 3px solid var(--azul-escuro);
-}
 
 @media (max-width: 1100px) {
     .post {
